@@ -1,0 +1,14 @@
+%estilosParrafo{
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    padding-left: 13%;
+    padding-right: 13%;
+    color: $color-texto;
+}
+%estilosTitulo1{
+    font-size: 32px;
+    font-weight: lighter;
+    text-align: center;
+    color: $color-titulos;
+}

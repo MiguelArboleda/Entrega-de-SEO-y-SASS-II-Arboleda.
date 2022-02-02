@@ -1,0 +1,15 @@
+//mapa
+
+$textoResaltado: (
+     glitz: whitesmoke,
+     seres: $color-titulos,
+     bohemia: rgb(255, 0, 149),
+);
+
+@each $frases, $color in $textoResaltado{
+    .#{$frases}{
+        color: $color;
+        font-weight: 800;
+        font-size: 18px;
+    }
+}
